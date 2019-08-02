@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Statistics
+Bundle-SymbolicName: com.nirup.aadl.statistics;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: .
+Bundle-Activator: com.nirup.aadl.statistics.Activator
+Bundle-Vendor: NIRUP
+Automatic-Module-Name: com.nirup.aadl.statistics
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: com.nirup.aadl.statistics
+Require-Bundle: org.osate.aadl2,
+ org.osate.ui,
+ org.osate.xtext.aadl2,
+ org.eclipse.ui.ide;bundle-version="3.14.200"
+Bundle-ActivationPolicy: lazy
